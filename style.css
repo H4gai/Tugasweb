@@ -1,0 +1,443 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+	
+}
+
+body{
+    margin: 0;
+    padding: 0;
+	font-family: 'Nunito', sans-serif;
+	background-color: whitesmoke;
+}
+
+
+.dropdwn{
+    margin: 0 auto
+}
+
+nav{
+    height: 60px;
+    background-color: whitesmoke;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    top :0;
+	position: sticky;
+	z-index: 999;
+}
+.logo{
+    padding: 10px 0 0 80px;
+    width: 150px;
+    height: auto;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+nav ul li{
+    position: sticky;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: purple;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover > ul{
+    display: block;
+
+}
+
+nav ul ul li{
+    width: 300px;
+    float: none;
+    display: list-item;
+    position: relative;
+    background-color: white;
+}
+
+header{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLZvp-nFx_JJ3W_0IonUDDhXJJ7i5FXOmbsg&usqp=CAU');
+    width: auto;
+    height: 350px;
+}
+
+.konten-5{
+	max-width: auto;
+	height: auto;
+	display: grid;
+	grid-template-columns: 30% 70%;
+    grid-gap: 10px 10px;
+	padding:50px;
+	
+}
+
+.isi-konten-5{
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:space-evenly;
+	padding:50px;
+	grid-gap: 10px 10px;
+	
+}
+
+.isi2-konten-5{
+
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:space-evenly;
+	grid-gap: 10px 10px;
+	padding:10px;
+	
+}
+
+
+.isi-8{
+	width:150px;
+	height:150px;
+	padding-top:10px;
+	background-image: url('https://www.edukasystem.com/img/Buwhan-terbang.de658f45.gif');
+	background-size:contain;
+}
+
+.isi-9{
+	width:100%;
+	height:50px;
+    color: purple;
+	text-align:center;
+    font-size: 20px;
+	
+}
+
+.isi-10{
+	width:300px;
+	height:30px;
+	padding-top:10px;
+    background-color: orange;
+    text-align:center;
+    font-size: 14px;
+}
+
+.isi-11{
+	width:300px;
+	height:30px;
+	padding-top:10px;
+    background-color: white;
+    text-align:center;
+    font-size: 14px;
+}
+
+.isi-16{
+	width:300px;
+	height:30px;
+    background-color: black;
+    text-align:center;
+    font-size: 14px;
+    color: white;
+}
+
+.isi-10:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.isi-16:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.isi-11:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.isi-konten-6{
+	background-color: white;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:space-evenly;
+	padding:10px;
+	grid-gap: 10px 10px;
+	
+}
+
+.konten-6{
+	max-width: auto;
+	height: auto;
+	display: grid;
+	grid-template-columns: 50% 50%;
+    grid-gap: 10px 10px;
+	padding:10px;
+	
+}
+
+.isi2-konten-6{
+	background-color: white;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:space-evenly;
+	grid-gap: 10px 10px;
+	padding:10px;
+	
+}
+
+.isi-1{
+	width:300px;
+	height:auto;
+	padding-top:10px;
+	
+	
+}
+
+.isi-2{
+	width:300px;
+	height:auto;
+	padding-top:10px;
+    background-color: white;
+    text-align:left;
+    font-size: 14px;
+}
+
+.isi-3{
+	width:300px;
+	height:auto;
+	padding-top:10px;
+    background-color: white;
+    text-align:left;
+    font-size: 14px;
+}
+
+.konten-7{
+	max-width: auto;
+	height: auto;
+	display: grid;
+	grid-template-columns: 30% 70%;
+    grid-gap: 10px 10px;
+	padding:50px;
+    background-color: #663399;
+}
+
+.isi-4{
+	width:100%;
+	height:50px;
+    color: white;
+	text-align:center;
+    font-size: 20px;
+}
+.konten-3{
+	max-width: auto;
+	height: auto;
+	background-color: darkorchid;
+	padding: 50px;
+	
+}
+
+.konten-3 h2{
+	text-align:center;
+	padding:10px;
+    color:white;
+}
+
+.konten-3 h3{
+	text-align:center;
+	padding:10px;
+    color:black;
+}
+
+.isi-konten-3{
+	max-width: auto;
+	height: auto;
+	padding-left: 200px;
+	padding-right: 200px;
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.isi-5{
+	width:200px;
+	height:250px;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	background-color:white;
+	padding-top:50px;
+}
+
+.konten-6 h2{
+	text-align:left;
+	padding:10px;
+    color:black;
+}
+
+/* Mengatur warna dan size bagian footer*/
+.home-footer{
+	max-width: auto;
+	height: auto;
+	background-color: darkorchid;
+}
+
+/* Mengatur isi bagian footer*/
+.home-footer h2{
+	padding: 15px;
+	text-align: center;
+	color: white;
+	font-size:15px;
+}
+
+.isi-konten-6A{
+	background-color: orange;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:space-evenly;
+	grid-gap: 10px 10px;
+}
+
+.isi-1A{
+	width:300px;
+	height:auto;
+	padding-top:10px;
+}
+
+.isi-2A{
+	width:300px;
+	height:auto;
+	padding-top:10px;
+    background-color: orange;
+    text-align:left;
+    font-size: 14px;
+}
+
+.isi-3A{
+	width:300px;
+	height:auto;;
+    background-color: orange;
+    text-align:left;
+    font-size: 14px;
+}
+
+.isi-8{
+	width:150px;
+	height:150px;
+	padding-top:10px;
+}
+
+.konten-3A{
+	max-width: auto;
+	height: auto;
+	background-color: whitesmoke;
+	padding: 50px;
+	
+}
+
+.konten-3A h2{
+	text-align:center;
+	padding:10px;
+    color:black;
+}
+
+.main-container{
+    background-color: lightyellow;
+    width: auto;
+    height: 700px;
+}
+
+/* Mengatur warna latar dan size dari main web pada bagian home */
+.home-konten{
+	background-color: white;
+	width: auto;
+	height: 1000px;
+}
+
+/* Mengatur warna latar dan size dari main web pada bagian laman kedua */
+.home-konten2{
+	background-color: white;
+	max-width: 1920px;
+	height: 3000px;
+}
+
+/* Mengatur judul konten */
+.home-konten2 h3{
+	text-align: center;
+	padding:10px;
+}
+
+/* Mengatur images yang ada pada konten */
+.home-konten2 img{
+	display:block; 
+	margin:auto; 
+}
+
+/* Pengaturan pada bagian sidebar */
+.side{
+	margin: 40px;
+	width: 300px;
+	padding: 20px;
+	height: 400px;
+	background-color: white;
+	float: right;
+	text-align: center;
+	box-shadow: 2px 2px 5px grey;
+		
+}
+
+/* Mengatur warna isi sidebar */
+.side h2{
+	color: blue;
+	padding: 5px;
+}
+/* Mengatur images pada sidebar */
+.foto img{
+	height: 200px;
+	margin-top : 10px;
+}
+
+/* Mengatur posisi tulisan pada sidebar */
+.data-diri{
+	padding: 10px;
+	line-height: 2em;
+}
+
+/* Mengatur konten bagian contact*/
+.isi-contact{
+	margin: 40px;
+	padding: 20px;
+	width: 700px;
+	height: 500px;
+	background-color: white;
+	float: left;
+	text-align:left;
+	box-shadow: 2px 2px 5px grey;
+}
+
+/* Mengatur warna dan size submit*/
+.submit{
+	width: 100%;
+	height: 40px;
+	background-color: #0226FD
+}

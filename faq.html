@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+ <!-- Nama	: Hagai Brayen Setiawan
+	  NIM	: 2001984
+	  Kelas	: C2-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Praktikum desain dan pemrograman web - 1</title>
+	<link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+      <div class = "dropdwn">
+        <nav>
+          <a class="logo" href="index.html">
+            <img src="https://image4.owler.com/logo/eduka_owler_20200428_124457_original.png" alt="" width="250px" height="60px">
+          </a>
+          <ul>
+            <li><a href="tentang.html">Tentang Eduka</a></li>
+            <li><a href="">Fitur Eduka<i class="fa-duotone fa-caret-down"></i></i></a>
+              <ul>
+                <li><a href="fitur.html">Rangkuman</a></li>
+                <li><a href="fitur.html">Quiz</a></li>
+                <li><a href="fitur.html">Tryout</a></li>
+                <li><a href="fitur.html">Live Class</a></li>
+                <li><a href="fitur.html">Rekomendasi Belajar</a></li>
+                <li><a href="fitur.html">Rekomendasi Jurusan</a></li> 
+              </ul>  
+            </li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </nav>
+      </div> 
+  <main>
+    <!-- Bagian main dari website untuk menampilkan konten-konten topik-->
+		<div class = "home-konten">
+            <!-- Bagian konten yang berada pada side bar website, isinya berupa profil diri-->
+                <div class="side">
+                <!-- foto profil-->
+                    <h2>Profil Diri</h2>
+                    <div class="foto">
+                        <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4vTlvpqqXm6-bFYZr4QvRBvY1PWsscwoBpIyJvUs0LsdQpD6LNrwbdOfgzkJQtP2Uc5I&usqp=CAU"; alt="foto">
+                    </div>
+                    <div class = "data-diri">
+                    <table style="width:100%">
+                        <tr>
+                            <th>Nama </th>
+                            <td>Hagai Brayen Setiawan</td>
+                        </tr>
+                        <tr>
+                            <th>NIM </th>
+                            <td>2001984</td>
+                        </tr>
+                        <tr>
+                            <th>Jenis Kelamin </th>
+                            <td>Laki-laki</td>
+                        </tr>
+                        <tr>
+                            <th>Email </th>
+                            <td>hagaibrayens@upi.edu</td>
+                        </tr>
+                    </table>		
+                </div>
+                </div>
+                
+            <!-- Bagian konten utama pada website-->	
+            <div class= "isi-contact">
+            <form method="post">
+            <!-- konten berisi form data contact-->
+            <label for="name">
+           <!-- input nama -->
+              Nama<br>
+                <input name="name" type="text" placeholder="Nama Kamu" / style="height: 30px; width: 100%;" oninvalid="setCustomValidity('Harap isi bidang ini.')" required>
+            </label>
+            <br><br> 
+
+            <!-- konten berisi form data contact-->
+            <label for="email">
+                <!-- input email -->
+                   Email<br>
+                     <input name="email" type="email" placeholder="" / style="height: 30px; width: 100%;" oninvalid="setCustomValidity('Harap isi bidang ini.')" required>
+                 </label>
+                 <br><br> 
+
+            <!-- konten berisi form data contact-->
+            <label for="tel">
+                <!-- input nama -->
+                   No Hp<br>
+                     <input name="tel" type="tel" placeholder="" / style="height: 30px; width: 100%;" oninvalid="setCustomValidity('Harap isi bidang ini.')" required>
+                 </label>
+                 <br><br>
+            
+                <label>Berapa Umur Kamu: <input type="number" name="umur" min="7"
+                max="20"></label><br><br>
+                
+            <!-- data lokasi saat ini -->
+            <label for="lokasi">
+              Kota/Kabupaten<br>
+                <select class="lokasi" name"lokasi" / style="height: 30px; width: 100%;">
+                <option value="Bandung">Bandung</option>
+                <option value="setiabudi">Sukabumi</option>
+                <option value="setiabudi">Jakarta</option>
+                <option value="setiabudi">Bogor</option>
+            </select>
+            </label>
+            <br><br>
+    
+            <!-- pesan text -->
+            <label for="description">
+              Pesan
+              <br>
+              <textarea
+                name="description"
+                cols="10"
+                placeholder=""
+                rows="3"
+                / style="width: 100%;" oninvalid="setCustomValidity('Harap isi bidang ini.')" required
+              ></textarea>
+            </label>
+            <br><br>
+                
+                <input class="submit" type="submit" value="Submit" / style="color:white;">
+            </form>
+        </div>
+        </div>
+</main>
+<footer>
+	<!-- Bagian footer dari website -->
+		<div class = "home-footer">
+      <a class="logo" href="#">
+        <img src="https://image4.owler.com/logo/eduka_owler_20200428_124457_original.png" alt="" width="250px" height="60px">
+      </a>
+			<h2>Media belajar berbasis teknologi yang fokus untuk meningkatkan keterampilan siswa Indonesia dalam memecahkan masalah yang kompleks.</h2>
+		</div>
+	</footer>
+  </body>
+  
+</html>
